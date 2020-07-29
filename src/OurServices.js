@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const Home = () => (
+export const OurServices = () => (
     <div>
         <h1>Our Services</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, corporis.</p>

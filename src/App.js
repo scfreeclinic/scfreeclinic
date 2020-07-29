@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import "./components/FontAwesomeIcon";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import { Home } from './Home';
+import { OurServices } from './OurServices';
 import { About } from './About';
 import { OurTeam } from './OurTeam';
 import { NoMatch } from './NoMatch';
@@ -15,14 +15,15 @@ class App extends Component {
   render() {
     return (
       <React.Fragment>
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
         <NavigationBar />
         <Jumbotron />
         <Layout>
             <Switch>
-              <Route exact path="/" component={Home} />
+              <Route exact path="/" component={About} />
               <Route path="/about" component={About} />
               <Route path="/ourteam" component={OurTeam} />
+              <Route path="/ourservices" component={OurServices} />
               <Route component={NoMatch} />
             </Switch>
         </Layout>
