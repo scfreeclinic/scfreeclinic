@@ -31,7 +31,7 @@ export const Footer = () => (
                     <p>Location: -- | Phone Number: -- | Email: <a href="mailto:scfreeclinic@gmail.com"> scfreeclinic@gmail.com </a></p>
                     <Button variant="link" href="https://www.facebook.com/groups/215765172962897/"><FontAwesomeIcon icon={["fab", "facebook-f"]} /></Button>
                     <Button variant="link" href="https://www.instagram.com/scfreeclinic/"><FontAwesomeIcon icon={["fab", "instagram"]} /></Button>
-                    {/* <Button variant="link" href=""><FontAwesomeIcon icon={["fab", "twitter"]} /></Button> */}
+                    <Button variant="link" href="https://twitter.com/scfreeclinic"><FontAwesomeIcon icon={["fab", "twitter"]} /></Button>
                 </Container>
             </Nav>
         </Styles>
