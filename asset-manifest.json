@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/scfreeclinic/static/css/main.36445554.chunk.css",
-    "main.js": "/scfreeclinic/static/js/main.5e37a575.chunk.js",
-    "main.js.map": "/scfreeclinic/static/js/main.5e37a575.chunk.js.map",
+    "main.js": "/scfreeclinic/static/js/main.b63a3b61.chunk.js",
+    "main.js.map": "/scfreeclinic/static/js/main.b63a3b61.chunk.js.map",
     "runtime-main.js": "/scfreeclinic/static/js/runtime-main.c10fae1e.js",
     "runtime-main.js.map": "/scfreeclinic/static/js/runtime-main.c10fae1e.js.map",
-    "static/js/2.d0ebfdc0.chunk.js": "/scfreeclinic/static/js/2.d0ebfdc0.chunk.js",
-    "static/js/2.d0ebfdc0.chunk.js.map": "/scfreeclinic/static/js/2.d0ebfdc0.chunk.js.map",
+    "static/js/2.e348e84e.chunk.js": "/scfreeclinic/static/js/2.e348e84e.chunk.js",
+    "static/js/2.e348e84e.chunk.js.map": "/scfreeclinic/static/js/2.e348e84e.chunk.js.map",
     "index.html": "/scfreeclinic/index.html",
-    "precache-manifest.836aed8fa1c2f3a1b0c39cbb3a7b21d3.js": "/scfreeclinic/precache-manifest.836aed8fa1c2f3a1b0c39cbb3a7b21d3.js",
+    "precache-manifest.7c4ca876dc69cb844f801f9ab17c9b97.js": "/scfreeclinic/precache-manifest.7c4ca876dc69cb844f801f9ab17c9b97.js",
     "service-worker.js": "/scfreeclinic/service-worker.js",
     "static/css/main.36445554.chunk.css.map": "/scfreeclinic/static/css/main.36445554.chunk.css.map",
-    "static/js/2.d0ebfdc0.chunk.js.LICENSE.txt": "/scfreeclinic/static/js/2.d0ebfdc0.chunk.js.LICENSE.txt",
+    "static/js/2.e348e84e.chunk.js.LICENSE.txt": "/scfreeclinic/static/js/2.e348e84e.chunk.js.LICENSE.txt",
     "static/media/campus.jpg": "/scfreeclinic/static/media/campus.eef6590e.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.c10fae1e.js",
-    "static/js/2.d0ebfdc0.chunk.js",
+    "static/js/2.e348e84e.chunk.js",
     "static/css/main.36445554.chunk.css",
-    "static/js/main.5e37a575.chunk.js"
+    "static/js/main.b63a3b61.chunk.js"
   ]
 }
