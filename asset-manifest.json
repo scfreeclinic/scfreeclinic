@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/scfreeclinic/static/css/main.36445554.chunk.css",
-    "main.js": "/scfreeclinic/static/js/main.3ded184d.chunk.js",
-    "main.js.map": "/scfreeclinic/static/js/main.3ded184d.chunk.js.map",
+    "main.js": "/scfreeclinic/static/js/main.730dbd9a.chunk.js",
+    "main.js.map": "/scfreeclinic/static/js/main.730dbd9a.chunk.js.map",
     "runtime-main.js": "/scfreeclinic/static/js/runtime-main.c10fae1e.js",
     "runtime-main.js.map": "/scfreeclinic/static/js/runtime-main.c10fae1e.js.map",
     "static/js/2.e348e84e.chunk.js": "/scfreeclinic/static/js/2.e348e84e.chunk.js",
     "static/js/2.e348e84e.chunk.js.map": "/scfreeclinic/static/js/2.e348e84e.chunk.js.map",
     "index.html": "/scfreeclinic/index.html",
-    "precache-manifest.42150ea682650defb011d0c4efe05004.js": "/scfreeclinic/precache-manifest.42150ea682650defb011d0c4efe05004.js",
+    "precache-manifest.1378b473c456c2cf9866fda2ee307f9a.js": "/scfreeclinic/precache-manifest.1378b473c456c2cf9866fda2ee307f9a.js",
     "service-worker.js": "/scfreeclinic/service-worker.js",
     "static/css/main.36445554.chunk.css.map": "/scfreeclinic/static/css/main.36445554.chunk.css.map",
     "static/js/2.e348e84e.chunk.js.LICENSE.txt": "/scfreeclinic/static/js/2.e348e84e.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.c10fae1e.js",
     "static/js/2.e348e84e.chunk.js",
     "static/css/main.36445554.chunk.css",
-    "static/js/main.3ded184d.chunk.js"
+    "static/js/main.730dbd9a.chunk.js"
   ]
 }
