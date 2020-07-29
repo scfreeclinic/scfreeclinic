@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import "./components/FontAwesomeIcon";
-import { HashRouter as Router, Switch, Route } from "react-router-dom";
+import { HashRouter as Router, Switch, Route , Link } from "react-router-dom";
 import { OurServices } from './OurServices';
 import { About } from './About';
 import { OurTeam } from './OurTeam';
@@ -15,11 +15,11 @@ class App extends Component {
   render() {
     return (
       <React.Fragment>
-        <Router basename={process.env.PUBLIC_URL}>
+        <Router basename='/'>
         <NavigationBar />
         <Jumbotron />
         <Layout>
-            <Switch>
+            <Switch>              
               <Route exact path="/" component={About} />
               <Route path="/about" component={About} />
               <Route path="/ourteam" component={OurTeam} />

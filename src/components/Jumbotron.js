@@ -6,7 +6,7 @@ import campus from '../assets/campus.jpg';
 const Styles = styled.div`
     .jumbo {
         padding: 6rem;
-        margin: 0rem 0rem 2rem 0rem;
+        margin: 0rem 0rem 2.5rem 0rem;
         background: url(${campus}) fixed bottom;
         background-size: cover;
         color: #efefef;
