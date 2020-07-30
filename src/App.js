@@ -9,6 +9,7 @@ import { Layout } from './components/Layout';
 import { Jumbotron } from './components/Jumbotron';
 import { NavigationBar } from './components/NavBar';
 import { Footer } from './components/Footer';
+import "./App.css";
 
 class App extends Component {
 
