@@ -12,3 +12,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* jumbotron images */
+.about_jumbo {
+  background: url(./assets/campus.jpg) center;
+}
+
+.ourteam_jumbo {
+  background: url(./assets/ourteam.jpg) center;
+}
+
+.ourservices_jumbo {
+  background: url(./assets/ourservices.jpg) center;
+}
+
