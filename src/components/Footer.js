@@ -7,7 +7,7 @@ import Button from 'react-bootstrap/Button'
 const Styles = styled.div`
     .nav {
         background-color: #E0DEDC;
-        padding: 4rem;
+        padding: 4rem 0;
         margin: 7rem 0 0 0;
     }
 

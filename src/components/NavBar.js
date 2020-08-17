@@ -46,21 +46,24 @@ export const NavigationBar = () => (
     <Styles>
         <Navbar collapseOnSelect expand="lg" >
             <Container>
-                <Navbar.Brand href="/scfreeclinic/#/" className="scfc-logo"><img src={logo} height="55" alt="SCFC"/> SC Free Clinic</Navbar.Brand>
+                {/* only show brand when on desktop+ */}
+                <Navbar.Brand href="/" className="scfc-logo"><img src={logo} height="55" alt="SCFC"/></Navbar.Brand>
             </Container>
         </Navbar>
         <Navbar collapseOnSelect expand="lg" variant="dark">
             <Container>
+                {/* only show brand when on mobile */}
+                <Navbar.Brand href="/"></Navbar.Brand> 
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="mr-auto"> 
-                        <Nav.Item><Nav.Link href="/scfreeclinic/#/ourservices">Our Services</Nav.Link></Nav.Item>
+                        <Nav.Item><Nav.Link href="/#/ourservices">Our Services</Nav.Link></Nav.Item>
                         <NavDropdown title="About the Clinic" id="basic-nav-dropdown">
-                            <NavDropdown.Item href="/scfreeclinic/#/about">Mission + Goal</NavDropdown.Item>
-                            <NavDropdown.Item href="/scfreeclinic/#/ourteam">Our Team</NavDropdown.Item>
+                            <NavDropdown.Item href="/#/about">Mission + Goal</NavDropdown.Item>
+                            <NavDropdown.Item href="/#/ourteam">Our Team</NavDropdown.Item>
                         </NavDropdown>
                         <NavDropdown title="Become Involved" id="basic-nav-dropdown">
-                            <NavDropdown.Item href="#">GoFundMe</NavDropdown.Item>
+                            <NavDropdown.Item href="https://www.gofundme.com/f/santa-cruz-free-clinic-gofundme-fund?utm_source=customer&utm_campaign=p_cp+share-sheet&utm_medium=copy_link_all" target="_blank">GoFundMe</NavDropdown.Item>
                             <NavDropdown.Item href="#">Other</NavDropdown.Item>
                         </NavDropdown>
                     </Nav>
