@@ -2,6 +2,7 @@ import React from 'react';
 import { Nav, Navbar, NavDropdown, Container } from 'react-bootstrap';
 import styled from 'styled-components';
 import logo from '../assets/scfc_logo.png';
+import { Link } from 'react-router-dom';
 
 const Styles = styled.div`
     .navbar {
@@ -33,8 +34,9 @@ const Styles = styled.div`
         background-color: #5C1008;
     }
 
-    .dropdown-item {
+    .dropdown-item , a {
         color: rgba(255,255,255,.6);
+        text-decoration: none;
         &:hover {
             color: white;
             background: transparent;
@@ -57,14 +59,16 @@ export const NavigationBar = () => (
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="mr-auto"> 
-                        <Nav.Item><Nav.Link href="/#/ourservices">Our Services</Nav.Link></Nav.Item>
+                        <NavDropdown title="Our Services" id="basic-nav-dropdown">
+                            <NavDropdown.Item><Link to='/hygiene_products'>Hygiene Products</Link></NavDropdown.Item>
+                        </NavDropdown>
                         <NavDropdown title="About the Clinic" id="basic-nav-dropdown">
-                            <NavDropdown.Item href="/#/about">Mission + Goal</NavDropdown.Item>
-                            <NavDropdown.Item href="/#/ourteam">Our Team</NavDropdown.Item>
+                            <NavDropdown.Item><Link to='/about'>Mission + Goal</Link></NavDropdown.Item>
+                            <NavDropdown.Item><Link to='/our_team'>Our Team</Link></NavDropdown.Item>
                         </NavDropdown>
                         <NavDropdown title="Become Involved" id="basic-nav-dropdown">
                             <NavDropdown.Item href="https://www.gofundme.com/f/santa-cruz-free-clinic-gofundme-fund?utm_source=customer&utm_campaign=p_cp+share-sheet&utm_medium=copy_link_all" target="_blank">GoFundMe</NavDropdown.Item>
-                            <NavDropdown.Item href="#">Other</NavDropdown.Item>
+                            <NavDropdown.Item href="https://forms.gle/vp6ATFmfQVDgJRuA6" target="_blank">Volunteer Interest Form</NavDropdown.Item>
                         </NavDropdown>
                     </Nav>
                 </Navbar.Collapse>
