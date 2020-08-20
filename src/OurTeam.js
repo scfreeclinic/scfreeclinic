@@ -7,7 +7,7 @@ import EthanImg from './assets/BoardMembers/ethan_p.png'
 import ShayImg from './assets/BoardMembers/shay_p.png'
 import KeertanaImg from './assets/BoardMembers/keertana_l.png'
 import RamtinImg from './assets/BoardMembers/ramtin_l.png'
-import KaushtubImg from './assets/BoardMembers/kaushtub_f.png'
+import KausthubImg from './assets/BoardMembers/kausthub_f.png'
 import KyleImg from './assets/BoardMembers/kyle_f.png'
 
 export const OurTeam = () => (
@@ -19,7 +19,7 @@ export const OurTeam = () => (
         <h6>The Legal Team is working to ensure the longevity of Santa Cruz Free Clinic by retaining its status as a 501c3 nonprofit organization. </h6>
         <BoardMembers 
             memberImage1={RamtinImg}
-            memberName1="Ramtin Poustinchi - Legal Co-director" 
+            memberName1="Ramtin Poustinchi - Executive Director / Legal Co-director" 
             memberDesc1="Ramtin Poustinchi is the founder and executive director of the Santa Cruz Free Clinic. His journey in nonprofit 
             work began with his employment at Housing Matters as a freshman, whilst he was pursuing a B.S. in Neuroscience with a minor 
             in Bioinformatics. During his tenure at housing matters he set out to identify gaps in care for the unsheltered community, 
@@ -56,8 +56,8 @@ export const OurTeam = () => (
         <h3>Finance Team</h3>
         <h6>The Finance Team is working to ensure that the clinic makes fiscal decisions to best support our community.</h6>
         <BoardMembers 
-            memberImage1={KaushtubImg}
-            memberName1="Kaushtub Prodduturi - Financial Co-director" 
+            memberImage1={KausthubImg}
+            memberName1="Kausthub Prodduturi - Financial Co-director" 
             memberDesc1="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
             dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
@@ -79,11 +79,11 @@ export const OurTeam = () => (
             <li>Haley Block - Hygiene Kit Lead [Summer 2020] / Social Media [Summer 2020]</li>
         </ul>
         <ul>
-            <li>Sophie Tamayo</li>
-            <li>Yatziri Arias Torres</li>
+            <li>Sophie Tamayo - Legal Intern [Summer 2020]</li>
+            <li>Yatziri Arias Torres - Legal Intern [Summer 2020]</li>
         </ul>
         <ul>
-            <li>Brian Flores</li>
+            <li>Brian Flores - Finance Intern [Summer 2020]</li>
         </ul>
     </div>
     </React.Fragment>
