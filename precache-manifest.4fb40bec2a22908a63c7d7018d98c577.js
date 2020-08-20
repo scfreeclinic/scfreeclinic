@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "49a2ff6887d3d9bba05345d852dfb550",
+    "revision": "e834d11c567d5efa3edd4b9a34c97d1d",
     "url": "/index.html"
   },
   {
-    "revision": "a75dbfccb7e34507e5e6",
+    "revision": "f00d5b0a044ff7dbb57c",
     "url": "/static/css/main.c5f704ca.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.c352697f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a75dbfccb7e34507e5e6",
-    "url": "/static/js/main.eb137a31.chunk.js"
+    "revision": "f00d5b0a044ff7dbb57c",
+    "url": "/static/js/main.009a9314.chunk.js"
   },
   {
     "revision": "ee029dc4086dbcb235d4",
@@ -36,8 +36,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/hygieneproducts.08d04bcc.jpg"
   },
   {
-    "revision": "c996538917dec4c6ed80dcdc68cb2b17",
-    "url": "/static/media/kausthub_f.c9965389.png"
+    "revision": "daac240f1198cebcd1e8d5c32cb4f18c",
+    "url": "/static/media/kausthub_f.daac240f.png"
   },
   {
     "revision": "3b2d331ee3ca37aa531cb054c7d80cd7",
