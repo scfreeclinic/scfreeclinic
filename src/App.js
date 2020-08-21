@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import "./components/FontAwesomeIcon";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 import { HygieneProducts } from './HygieneProducts';
 import { About } from './About';
 import { OurTeam } from './OurTeam';
