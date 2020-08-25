@@ -42,6 +42,11 @@ const Styles = styled.div`
             background: transparent;
         }
     }
+
+    #link {
+        padding: 8px;
+    }
+
 `;
 
 export const NavigationBar = () => (
@@ -59,9 +64,7 @@ export const NavigationBar = () => (
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="mr-auto"> 
-                        <NavDropdown title="Our Services" id="basic-nav-dropdown">
-                            <NavDropdown.Item><Link to='/hygiene_products'>Hygiene Products</Link></NavDropdown.Item>
-                        </NavDropdown>
+                    <Link id="link" to="/our_services">Our Services</Link>
                         <NavDropdown title="About the Clinic" id="basic-nav-dropdown">
                             <NavDropdown.Item><Link to='/about'>Mission + Goal</Link></NavDropdown.Item>
                             <NavDropdown.Item><Link to='/our_team'>Our Team</Link></NavDropdown.Item>
