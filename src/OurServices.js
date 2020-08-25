@@ -26,6 +26,14 @@ const Styles = styled.div`
     .nav-pills .nav-link {
         color: #6c757c;
     }
+
+    p {
+        margin: 1rem 0;
+    }
+
+    div.col-sm-3 {
+        margin: .5rem 0 1rem 0;
+    }
 `;
 
 export const OurServices = () => (
@@ -46,6 +54,9 @@ export const OurServices = () => (
                         </Nav.Item>
                         <Nav.Item>
                             <Nav.Link eventKey="hivstd" disabled>HIV/STD Testing</Nav.Link>
+                        </Nav.Item>
+                        <Nav.Item>
+                            <Nav.Link eventKey="_____" disabled>_____</Nav.Link>
                         </Nav.Item>
                     </Nav>
                     </Col>
