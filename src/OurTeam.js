@@ -16,7 +16,7 @@ export const OurTeam = () => (
     <div>
 
         <h3>Legal Team</h3>
-        <h6>The Legal Team is working to ensure the longevity of Santa Cruz Free Clinic by retaining its status as a 501c3 nonprofit organization. </h6>
+        <h6>The Legal Team is working to ensure the longevity of Santa Cruz Free Clinic by retaining its status as a 501(c)(3) nonprofit organization. </h6>
         <BoardMembers 
             memberImage1={RamtinImg}
             memberName1="Ramtin Poustinchi - Executive Director / Legal Director" 
@@ -41,10 +41,10 @@ export const OurTeam = () => (
             memberName1="Ethan Lin - Director of Personal Relations" 
             memberDesc1="Ethan Lin is a third year MCD Biology student with a passion for giving back to his community. Throughout high school, 
             he has gone on several service trips to Taiwan to serve the indigenous population there. At UCSC, he interned for Cal Teach to make 
-            an impact on K-12 students in local Santa Cruz schools. As the PR co-director, Ethan hopes to be able to give back to the homeless and 
-            less fortunate in the local Santa Cruz community through Santa Cruz Free Clinic. Like the other members of the clinic, Ethan wants the 
-            clinic to become a service that is able to reach the basic healthcare and hygiene needs of those who . In the future, he desires to 
-            continue to give back through his love for biology and health sciences by becoming a Physician Assistant (PA). "
+            an impact on K-12 students in local Santa Cruz schools. As the PR co-director, Ethan hopes to be able to give back to the homeless 
+            and less fortunate in the local Santa Cruz community through Santa Cruz Free Clinic. Like the other members of the clinic, Ethan 
+            wants the clinic to become a service that is able to fulfill the basic healthcare and hygiene needs of the community. In the future, 
+            he desires to continue to give back through his love for biology and health sciences by becoming a Physician Assistant (PA)."
             memberImage2={ShayImg}
             memberName2="Shay Reed - Director of Personal Relations" 
             memberDesc2="Shay Reed is a third year Human Biology student at UCSC. While she is originally from Utah, she has fallen in love
