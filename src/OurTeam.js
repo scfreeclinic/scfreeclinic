@@ -47,7 +47,7 @@ export const OurTeam = () => (
         memberName1="Ethan Lin - Director of Personal Relations"
         memberDesc1="Ethan Lin is a third year MCD Biology student with a passion for giving back to his community. Throughout high school, 
             he has gone on several service trips to Taiwan to serve the indigenous population there. At UCSC, he interned for Cal Teach to make 
-            an impact on K-12 students in local Santa Cruz schools. As the PR co-director, Ethan hopes to be able to give back to the homeless 
+            an impact on K-12 students in local Santa Cruz schools. As the PR Director, Ethan hopes to be able to give back to the homeless 
             and less fortunate in the local Santa Cruz community through Santa Cruz Free Clinic. Like the other members of the clinic, Ethan 
             wants the clinic to become a service that is able to fulfill the basic healthcare and hygiene needs of the community. In the future, 
             he desires to continue to give back through his love for biology and health sciences by becoming a Physician Assistant (PA)."
@@ -56,7 +56,7 @@ export const OurTeam = () => (
         memberDesc2="Shay Reed is a third year Human Biology student at UCSC. While she is originally from Utah, she has fallen in love
             with Santa Cruz and its community over the years that she has lived there. She joined SCFC in an effort to reach out to those that 
             she saw struggling in the Santa Cruz community and to work to fill those needs that were not being met for people experiencing 
-            houselessness. As a PR Co-Director, Shay hopes to build a relationship with the community that SCFC serves and to bring in volunteers 
+            houselessness. As a PR Director, Shay hopes to build a relationship with the community that SCFC serves and to bring in volunteers 
             and other resources to help take care of those in need. In the future, Shay hopes to use her experience in biology and service to become 
             an emergency physician and to continue to serve her community with knowledge and compassion. "
       />
@@ -89,7 +89,7 @@ export const OurTeam = () => (
       <hr />
 
       <h5>A THANK YOU TO OUR INTERNS</h5>
-      <ul>
+      <ul className="interns">
         <li>
           Theresa Tan - Website Lead [Summer 2020] / Social Media [Summer 2020]
         </li>
@@ -101,11 +101,11 @@ export const OurTeam = () => (
           2020]
         </li>
       </ul>
-      <ul>
+      <ul className="interns">
         <li>Sophie Tamayo - Legal Intern [Summer 2020]</li>
         <li>Yatziri Arias Torres - Legal Intern [Summer 2020]</li>
       </ul>
-      <ul>
+      <ul className="interns">
         <li>Brian Flores - Finance Intern [Summer 2020]</li>
       </ul>
     </div>

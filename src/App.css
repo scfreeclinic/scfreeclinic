@@ -1,14 +1,22 @@
 /* Mobile */
-@media screen and (max-width: 978px) {
+@media screen and (max-width: 768px) {
   .bodywidth {
     padding: 0;
   }
-  p {
+  p,
+  li {
     margin: 0;
-    padding: 0;
+    padding: 0.2rem 0.17rem 1.5rem 0.17rem !important;
   }
   .p_grid {
     padding: 0;
+  }
+  h6 {
+    padding: 0.7rem 0 0 0;
+  }
+  .interns {
+    padding: 0 2.5rem;
+    margin: 0;
   }
 }
 
