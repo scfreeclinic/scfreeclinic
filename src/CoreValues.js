@@ -153,7 +153,7 @@ export const Harassment = (props) => {
           <h6>{category}</h6>
         </Col>
         <Col xs={12} md={9}>
-          <p>{description}</p>
+          <p className="p_grid">{description}</p>
         </Col>
       </Row>
     </Container>

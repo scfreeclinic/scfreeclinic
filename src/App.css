@@ -1,3 +1,17 @@
+/* Mobile */
+@media screen and (max-width: 978px) {
+  .bodywidth {
+    padding: 0;
+  }
+  p {
+    margin: 0;
+    padding: 0;
+  }
+  .p_grid {
+    padding: 0;
+  }
+}
+
 /* Jumbotron Text */
 h1 {
   letter-spacing: 0.18rem;

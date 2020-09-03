@@ -45,6 +45,12 @@ const Styles = styled.div`
     }
   }
 
+  @media screen and (max-width: 978px) {
+    #link {
+      padding: 8px 0 !important;
+    }
+  }
+
   #link {
     padding: 8px;
   }
