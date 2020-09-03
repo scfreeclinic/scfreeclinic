@@ -25,7 +25,6 @@ export const About = () => (
           </Accordion.Collapse>
         </Card>
       </Accordion>
-
       <div id="mission">
         <h5>
           Santa Cruz Free Clinic is dedicated to fighting healthcare disparities

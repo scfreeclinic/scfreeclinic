@@ -21,9 +21,9 @@ p {
 
 /* About the Clinic Page */
 #mission {
-  padding: 2rem;
-  border-left-style: solid;
-  border-right-style: solid;
+  padding: 1rem;
+  /* border-left-style: solid; */
+  /* border-right-style: solid; */
   border-width: 0.07rem;
   border-color: #e0dedc;
   margin: 3.5rem 0;
