@@ -130,7 +130,7 @@ export const BoardMembers = (props) => {
           <img width={150} src={memberImage1} alt="member1" />
         </Col>
         <Col xs={12} md={9}>
-          <h6>{memberName1}</h6> <p>{memberDesc1}</p>
+          <h6>{memberName1}</h6> <p className="p_grid">{memberDesc1}</p>
         </Col>
       </Row>
       <Row className="boardMember">
@@ -138,7 +138,7 @@ export const BoardMembers = (props) => {
           <img width={150} src={memberImage2} alt="member2" />
         </Col>
         <Col xs={12} md={9}>
-          <h6>{memberName2}</h6> <p>{memberDesc2}</p>
+          <h6>{memberName2}</h6> <p className="p_grid">{memberDesc2}</p>
         </Col>
       </Row>
     </Container>
