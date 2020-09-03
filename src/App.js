@@ -6,6 +6,7 @@ import { About } from "./About";
 import { OurTeam } from "./OurTeam";
 import { CoreValues } from "./CoreValues";
 import { NoMatch } from "./NoMatch";
+import { InternApp } from "./InternApp";
 import { Layout } from "./components/Layout";
 import { NavigationBar } from "./components/NavBar";
 import { Footer } from "./components/Footer";
@@ -24,6 +25,7 @@ class App extends Component {
               <Route path="/our_team" component={OurTeam} />
               <Route path="/our_services" component={OurServices} />
               <Route path="/core_values" component={CoreValues} />
+              <Route path="/intern_application" component={InternApp} />
               <Route component={NoMatch} />
             </Switch>
           </Layout>

@@ -94,6 +94,9 @@ export const NavigationBar = () => (
               >
                 Volunteer Interest Form
               </NavDropdown.Item>
+              <NavDropdown.Item>
+                <Link to="/intern_application">Intern Application</Link>
+              </NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>

@@ -13,7 +13,7 @@ import KyleImg from "./assets/BoardMembers/kyle_f.png";
 export const OurTeam = () => (
   <React.Fragment>
     <Jumbotron jumboClasses="ourteam_jumbo" jumboText="OUR TEAM" />
-    <div>
+    <div className="bodywidth">
       <h3>Legal Team</h3>
       <h6>
         The Legal Team is working to ensure the longevity of Santa Cruz Free

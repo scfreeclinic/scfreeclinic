@@ -1,6 +1,6 @@
 /* Jumbotron Text */
 h1 {
-  letter-spacing: .18rem;
+  letter-spacing: 0.18rem;
   font-size: 3rem;
 }
 
@@ -24,8 +24,8 @@ p {
   padding: 2rem;
   border-left-style: solid;
   border-right-style: solid;
-  border-width: .07rem;
-  border-color: #E0DEDC;
+  border-width: 0.07rem;
+  border-color: #e0dedc;
   margin: 3.5rem 0;
 }
 #mission h6 {
@@ -35,6 +35,9 @@ p {
 .card-header {
   text-align: center;
   background-color: #eee3a7;
+}
+.card-header:hover {
+  cursor: pointer;
 }
 .card {
   background-color: transparent;
