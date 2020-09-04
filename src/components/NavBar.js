@@ -44,6 +44,9 @@ const Styles = styled.div`
       background: transparent;
     }
   }
+  .dropdown_nav {
+    padding: 12px 32px;
+  }
 
   @media screen and (max-width: 978px) {
     #link {
@@ -73,35 +76,46 @@ export const NavigationBar = () => (
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
-            <Link id="link" to="/our_services">
+            <Nav.Link as={Link} id="link" to="/our_services">
               Our Services
-            </Link>
+            </Nav.Link>
             <NavDropdown title="About the Clinic" id="basic-nav-dropdown">
               <NavDropdown.Item>
-                <Link to="/core_values">Core Values</Link>
+                <Nav.Link as={Link} to="/core_values">
+                  Core Values
+                </Nav.Link>
               </NavDropdown.Item>
               <NavDropdown.Item>
-                <Link to="/about">Mission + Goal</Link>
+                <Nav.Link as={Link} to="/about">
+                  Mission + Goal
+                </Nav.Link>
               </NavDropdown.Item>
               <NavDropdown.Item>
-                <Link to="/our_team">Our Team</Link>
+                <Nav.Link as={Link} to="/our_team">
+                  Our Team
+                </Nav.Link>
               </NavDropdown.Item>
             </NavDropdown>
+
             <NavDropdown title="Become Involved" id="basic-nav-dropdown">
               <NavDropdown.Item
                 href="https://www.gofundme.com/f/santa-cruz-free-clinic-gofundme-fund?utm_source=customer&utm_campaign=p_cp+share-sheet&utm_medium=copy_link_all"
                 target="_blank"
+                className="dropdown_nav"
               >
                 GoFundMe
               </NavDropdown.Item>
               <NavDropdown.Item
                 href="https://forms.gle/vp6ATFmfQVDgJRuA6"
                 target="_blank"
+                className="dropdown_nav"
               >
                 Volunteer Interest Form
               </NavDropdown.Item>
               <NavDropdown.Item>
-                <Link to="/intern_application">Intern Application</Link>
+                <Nav.Link as={Link} to="/intern_application">
+                  Intern Application
+                </Nav.Link>
               </NavDropdown.Item>
             </NavDropdown>
           </Nav>
