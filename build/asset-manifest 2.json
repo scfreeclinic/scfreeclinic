@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3e559162.chunk.css",
+    "main.js": "/static/js/main.778b1ccc.chunk.js",
+    "main.js.map": "/static/js/main.778b1ccc.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.88430e42.js",
+    "runtime-main.js.map": "/static/js/runtime-main.88430e42.js.map",
+    "static/js/2.984cb63f.chunk.js": "/static/js/2.984cb63f.chunk.js",
+    "static/js/2.984cb63f.chunk.js.map": "/static/js/2.984cb63f.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.c9aa50be9463ba79890da893b8b83764.js": "/precache-manifest.c9aa50be9463ba79890da893b8b83764.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.3e559162.chunk.css.map": "/static/css/main.3e559162.chunk.css.map",
+    "static/js/2.984cb63f.chunk.js.LICENSE.txt": "/static/js/2.984cb63f.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/ourteam.7fbd2526.jpg",
+    "static/media/ethan_p.png": "/static/media/ethan_p.85894b60.png",
+    "static/media/kausthub_f.png": "/static/media/kausthub_f.daac240f.png",
+    "static/media/keertana_l.png": "/static/media/keertana_l.3b2d331e.png",
+    "static/media/kyle_f.png": "/static/media/kyle_f.aab1e278.png",
+    "static/media/ramtin_l.png": "/static/media/ramtin_l.6e305c2a.png",
+    "static/media/scfc_logo.png": "/static/media/scfc_logo.abd0c371.png",
+    "static/media/shay_p.png": "/static/media/shay_p.24be5390.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.88430e42.js",
+    "static/js/2.984cb63f.chunk.js",
+    "static/css/main.3e559162.chunk.css",
+    "static/js/main.778b1ccc.chunk.js"
+  ]
+}

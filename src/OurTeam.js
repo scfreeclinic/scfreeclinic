@@ -30,10 +30,12 @@ export const OurTeam = () => (
             force for positive change in the community, with the goal of addressing gaps in care for those in need."
         memberImage2={KeertanaImg}
         memberName2="Keertana Katuru - Legal Director"
-        memberDesc2="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
-            dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
-            proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        memberDesc2="Keertana Katuru is a third year MCD Biology major at UCSC who has always been passionate about making healthcare more 
+        accessible to under-resourced communities. Through the Santa Cruz Free Clinic, Keertana has the opportunity to help provide an impactful 
+        service for the community and pursue her passion for healthcare. She hopes that the SC Free Clinic will help her and the SCFC team not only 
+        provide supporting healthcare services to those who need them, but also bridge other disparities within the community. In the future, 
+        Keertana sees herself continuing nonprofit work with the SC Free Clinic and Seemandhra Forum- a nonprofit started by family and friends- while 
+        working within the healthcare industry."
       />
 
       <h3>Public Relations Team</h3>
