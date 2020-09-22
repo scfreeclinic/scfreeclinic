@@ -2,6 +2,10 @@ import React from "react";
 import Button from "react-bootstrap/Button";
 import { Jumbotron } from "./components/Jumbotron";
 import styled from "styled-components";
+import InstagramEmbed from 'react-instagram-embed';
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 
 const Styles = styled.div`
   .btn {
@@ -40,6 +44,70 @@ export const InternApp = () => (
       >
         Intern Application
       </Button>
+      
+      <Container>
+        <Row>
+          <Col xs={12} md={6}>
+          <InstagramEmbed
+            url='https://www.instagram.com/p/CFIuWHdAWeF/'
+            maxWidth={250}
+            hideCaption={true}
+            containerTagName='div'
+            protocol=''
+            injectScript
+            onLoading={() => {}}
+            onSuccess={() => {}}
+            onAfterRender={() => {}}
+            onFailure={() => {}}
+          />
+          </Col>
+          <Col xs={12} md={6}>
+            <InstagramEmbed
+              url='https://www.instagram.com/p/CFLL4gaAml1/'
+              maxWidth={250}
+              hideCaption={true}
+              containerTagName='div'
+              protocol=''
+              injectScript
+              onLoading={() => {}}
+              onSuccess={() => {}}
+              onAfterRender={() => {}}
+              onFailure={() => {}}
+            />
+          </Col>      
+        </Row>
+        <Row>
+          <Col xs={12} md={6}>
+              <InstagramEmbed
+                url='https://www.instagram.com/p/CFOIR1KA4H2/'
+                maxWidth={250}
+                hideCaption={true}
+                containerTagName='div'
+                protocol=''
+                injectScript
+                onLoading={() => {}}
+                onSuccess={() => {}}
+                onAfterRender={() => {}}
+                onFailure={() => {}}
+              />
+            </Col>
+            <Col xs={12} md={6}>
+              <InstagramEmbed
+                url='https://www.instagram.com/p/CFP6TrSnAYj/'
+                maxWidth={250}
+                hideCaption={true}
+                containerTagName='div'
+                protocol=''
+                injectScript
+                onLoading={() => {}}
+                onSuccess={() => {}}
+                onAfterRender={() => {}}
+                onFailure={() => {}}
+              />
+            </Col>
+          </Row>
+      </Container>
+
     </div>
   </Styles>
 );

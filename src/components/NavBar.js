@@ -48,20 +48,36 @@ const Styles = styled.div`
     padding: 12px 32px;
   }
 
-  @media screen and (max-width: 978px) {
+  .bottomnav-brand {
+    display: none;
+  }
+
+  @media screen and (max-width: 991px) {
     #link {
       padding: 8px 0 !important;
     }
+    .topnav {
+      display: none;
+      /* visibility: hidden; */
+    }
+    .bottomnav {
+      padding: 1rem;
+    }
+    .bottomnav-brand {
+      display: contents;
+      color: white;
+    }
+    .dropdown_nav {
+      padding: 12px 24px;
+    }
   }
 
-  #link {
-    padding: 8px;
-  }
+
 `;
 
 export const NavigationBar = () => (
   <Styles>
-    <Navbar collapseOnSelect expand="lg">
+    <Navbar collapseOnSelect expand="lg" className="topnav">
       <Container>
         {/* only show brand when on desktop+ */}
         <Navbar.Brand href="/" className="scfc-logo">
@@ -69,10 +85,10 @@ export const NavigationBar = () => (
         </Navbar.Brand>
       </Container>
     </Navbar>
-    <Navbar collapseOnSelect expand="lg" variant="dark">
+    <Navbar collapseOnSelect expand="lg" variant="dark" className="bottomnav">
       <Container>
         {/* only show brand when on mobile */}
-        <Navbar.Brand href="/"></Navbar.Brand>
+        <Navbar.Brand href="/" className="bottomnav-brand"><img src={logo} height="40" alt="SCFC"/></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">

@@ -34,12 +34,3 @@ code {
 .corevalues_jumbo {
   background: url(./assets/corevalues.png) center;
 }
-
-p,
-li {
-  font-size: 15px;
-}
-
-.bodywidth {
-  padding: 0 4rem;
-}

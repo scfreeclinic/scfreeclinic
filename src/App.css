@@ -1,5 +1,5 @@
 /* Mobile */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 991px) {
   .bodywidth {
     padding: 0;
   }
@@ -18,30 +18,51 @@
     padding: 0 2.5rem;
     margin: 0;
   }
+
+  .topnav {
+    display: none;
+    /* visibility: hidden; */
+  }
+  .bottomnav {
+    padding: 1rem;
+  }
+  .bottomnav-brand {
+    display: contents;
+    color: white;
+  }
+  .fnfpaJ .dropdown_nav {
+    padding: 4px 24px;
+  }
+
 }
 
-/* Jumbotron Text */
+/* General */
+p,
+li {
+  font-size: 15px;
+}
+h3 {
+  margin: 2rem 0 0.5rem 0;
+}
+h6 {
+  line-height: 2rem;
+  margin: 0 0 1rem 0;
+}
+p {
+  line-height: 1.5rem;
+  padding: 0 2rem;
+}
+.bodywidth {
+  padding: 0 4rem;
+}
+
+/* Jumbotron Text Start */
 h1 {
   letter-spacing: 0.18rem;
   font-size: 3rem;
 }
 
-h3 {
-  /* letter-spacing: .12rem; */
-  margin: 2rem 0 0.5rem 0;
-}
-
-h6 {
-  line-height: 2rem;
-  margin: 0 0 1rem 0;
-}
-
-p {
-  line-height: 1.5rem;
-  padding: 0 2rem;
-}
-
-/* About the Clinic Page */
+/* About the Clinic */
 #mission {
   padding: 1rem;
   /* border-left-style: solid; */
@@ -68,4 +89,9 @@ p {
 /* Our Team Page */
 .boardMember {
   margin: 1.5rem 0;
+}
+
+div .SocialProof {
+  color: pink;
+  /* visibility: hidden; */
 }
