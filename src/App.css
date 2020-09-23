@@ -1,7 +1,7 @@
 /* Mobile */
 @media screen and (max-width: 991px) {
-  .bodywidth {
-    padding: 0;
+  body .bodywidth {
+    padding: 0rem;
   }
   p,
   li {
