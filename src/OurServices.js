@@ -79,7 +79,7 @@ export const OurServices = () => (
                   to our community, our GoFundMe can be found here:
                 </p>
                 <Button
-                  href="https://www.gofundme.com/f/santa-cruz-free-clinic-gofundme-fund?utm_source=customer&utm_campaign=p_cp+share-sheet&utm_medium=copy_link_all"
+                  href="https://charity.gofundme.com/o/en/campaign/santa-cruz-free-clinic-fudraising"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

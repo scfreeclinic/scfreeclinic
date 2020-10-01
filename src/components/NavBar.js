@@ -115,7 +115,7 @@ export const NavigationBar = () => (
 
             <NavDropdown title="Become Involved" id="basic-nav-dropdown">
               <NavDropdown.Item
-                href="https://www.gofundme.com/f/santa-cruz-free-clinic-gofundme-fund?utm_source=customer&utm_campaign=p_cp+share-sheet&utm_medium=copy_link_all"
+                href="https://charity.gofundme.com/o/en/campaign/santa-cruz-free-clinic-fudraising"
                 target="_blank"
                 className="dropdown_nav"
               >
