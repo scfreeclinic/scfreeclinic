@@ -113,7 +113,7 @@ export const NavigationBar = () => (
               </NavDropdown.Item>
             </NavDropdown>
 
-            <NavDropdown title="Become Involved" id="basic-nav-dropdown">
+            <NavDropdown title="Get Involved" id="basic-nav-dropdown">
               <NavDropdown.Item
                 href="https://charity.gofundme.com/o/en/campaign/santa-cruz-free-clinic-fudraising"
                 target="_blank"
