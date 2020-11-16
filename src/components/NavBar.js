@@ -119,7 +119,7 @@ export const NavigationBar = () => (
                 target="_blank"
                 className="dropdown_nav"
               >
-                GoFundMe
+                Donate
               </NavDropdown.Item>
               <NavDropdown.Item
                 href="https://forms.gle/vp6ATFmfQVDgJRuA6"
