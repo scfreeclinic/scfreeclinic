@@ -1,0 +1,23 @@
+.footer {
+    background-color: #E0DEDC;
+    padding: 4rem 0;
+    margin: 7rem 0 0 0;
+}
+
+.footer p {
+    margin: .2rem;
+}
+
+#footer-content {
+    text-align: center;
+}
+
+a {
+    color: #212529;
+}
+
+.socialmedia{
+    background-color: transparent;
+    border: transparent;
+    color: #212529;
+}

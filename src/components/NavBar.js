@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 const Styles = styled.div`
   .navbar {
-    background-color: #5c1008;
+    background-color: #490d06;
     padding-top: 0;
   }
 
@@ -32,7 +32,7 @@ const Styles = styled.div`
   }
 
   .dropdown-menu {
-    background-color: #5c1008;
+    background-color: #490d06;
   }
 
   .dropdown-item,

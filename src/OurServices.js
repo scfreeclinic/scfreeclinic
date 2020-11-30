@@ -1,49 +1,25 @@
 import React from "react";
 import { Jumbotron } from "./components/Jumbotron";
+import "./components/styles/OurServices.css";
 import Tab from "react-bootstrap/Tab";
 import Nav from "react-bootstrap/Nav";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
-import styled from "styled-components";
-
-const Styles = styled.div`
-  Nav.Link {
-    color: white;
-  }
-
-  .btn {
-    margin: 1rem 2rem;
-    background-color: #dabc66;
-    border-color: #dabc66;
-  }
-
-  .nav-pills .nav-link.active {
-    background-color: transparent;
-    color: black;
-  }
-
-  .nav-pills .nav-link {
-    color: #6c757c;
-  }
-
-  p {
-    margin: 1rem 0;
-  }
-
-  div.col-sm-3 {
-    margin: 0.5rem 0 1rem 0;
-  }
-`;
+import Image from 'react-bootstrap/Image';
+import Picture1455 from './assets/CovidKits/1455.jpg';
+import Picture1480 from './assets/CovidKits/1480.jpg';
+import Picture1497 from './assets/CovidKits/1497.jpg';
+import Picture1535 from './assets/CovidKits/1535.jpg';
 
 export const OurServices = () => (
-  <Styles>
+  <>
     <Jumbotron jumboClasses="ourservices_jumbo" jumboText="OUR SERVICES" />
     <div className="bodywidth">
       <Tab.Container id="left-tabs-example" defaultActiveKey="covidkits">
         <Row>
           <Col sm={3}>
-            <Nav variant="pills" className="flex-column">
+            <Nav variant="pills" className="flex-column sidebar">
               <Nav.Item>
                 <Nav.Link eventKey="covidkits">Covid Kits</Nav.Link>
               </Nav.Item>
@@ -82,9 +58,16 @@ export const OurServices = () => (
                   href="https://charity.gofundme.com/o/en/campaign/santa-cruz-free-clinic-fudraising"
                   target="_blank"
                   rel="noopener noreferrer"
+                  className = "buttonpop"
                 >
                   GoFundMe
                 </Button>
+                <div>
+                  <Image className="covidkit" src={Picture1455} alt=""  />
+                  <Image className="covidkit" src={Picture1480} alt=""  />
+                  <Image className="covidkit" src={Picture1497} alt=""  />
+                  <Image className="covidkit" src={Picture1535} alt=""  />
+                </div>
               </Tab.Pane>
               <Tab.Pane eventKey="haircuts">
                 <p>In the works.</p>
@@ -100,5 +83,5 @@ export const OurServices = () => (
         </Row>
       </Tab.Container>
     </div>
-  </Styles>
+  </>
 );

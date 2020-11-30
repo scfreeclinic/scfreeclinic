@@ -1,38 +1,19 @@
 import React from 'react';
 import { Nav, Container } from 'react-bootstrap';
-import styled from 'styled-components';
+import "./styles/Footer.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Button from 'react-bootstrap/Button'
 
-const Styles = styled.div`
-    .nav {
-        background-color: #E0DEDC;
-        padding: 4rem 0;
-        margin: 7rem 0 0 0;
-    }
-
-    .nav p {
-        margin: .2rem;
-    }
-
-    #footer-content {
-        text-align: center;
-    }
-
-    a {
-        color: #212529;
-    }
-`;
 
 export const Footer = () => (
-        <Styles>
-            <Nav className="justify-content-center" expand="lg" variant="dark">
+        <>
+            <Nav className="justify-content-center footer" expand="lg" variant="dark">
                 <Container id="footer-content">
                     <p>Location: 741 Chestnut Street, Santa Cruz CA | Email: <a href="mailto:scfreeclinic@gmail.com"> scfreeclinic@gmail.com </a></p>
-                    <Button variant="link" href="https://www.facebook.com/SCfreeclinic" target="_blank"><FontAwesomeIcon icon={["fab", "facebook-f"]} /></Button>
-                    <Button variant="link" href="https://www.instagram.com/scfreeclinic/" target="_blank"><FontAwesomeIcon icon={["fab", "instagram"]} /></Button>
-                    <Button variant="link" href="https://twitter.com/scfreeclinic" target="_blank"><FontAwesomeIcon icon={["fab", "twitter"]} /></Button>
+                    <Button variant="link" href="https://www.facebook.com/SCfreeclinic" target="_blank" className="socialmedia"><FontAwesomeIcon icon={["fab", "facebook-f"]} /></Button>
+                    <Button variant="link" href="https://www.instagram.com/scfreeclinic/" target="_blank" className="socialmedia"><FontAwesomeIcon icon={["fab", "instagram"]} /></Button>
+                    <Button variant="link" href="https://twitter.com/scfreeclinic" target="_blank" className="socialmedia"><FontAwesomeIcon icon={["fab", "twitter"]} /></Button>
                 </Container>
             </Nav>
-        </Styles>
+        </>
 )

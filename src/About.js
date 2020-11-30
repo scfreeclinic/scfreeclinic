@@ -4,6 +4,7 @@ import Card from "react-bootstrap/Card";
 import { Jumbotron } from "./components/Jumbotron";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCaretDown } from "@fortawesome/free-solid-svg-icons";
+
 export const About = () => (
   <React.Fragment>
     <Jumbotron jumboClasses="about_jumbo" jumboText="ABOUT THE CLINIC" />
