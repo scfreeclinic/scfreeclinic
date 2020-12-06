@@ -134,6 +134,9 @@ export const NavigationBar = () => (
                 </Nav.Link>
               </NavDropdown.Item>
             </NavDropdown>
+            <Nav.Link as={Link} id="link" to="/donors_and_sponsors">
+              Donors and Sponsors
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
