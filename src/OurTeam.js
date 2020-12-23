@@ -8,29 +8,36 @@ import ShayImg from "./assets/BoardMembers/shay_p.png";
 import KeertanaImg from "./assets/BoardMembers/keertana_l.png";
 import RamtinImg from "./assets/BoardMembers/ramtin_l.png";
 import KausthubImg from "./assets/BoardMembers/kausthub_f.png";
-import KyleImg from "./assets/BoardMembers/kyle_f.png";
 
 export const OurTeam = () => (
   <React.Fragment>
     <Jumbotron jumboClasses="ourteam_jumbo" jumboText="OUR TEAM" />
     <div className="bodywidth">
-      <h3>Legal Team</h3>
+    <h3>Operations Team</h3>
       <h6>
-        The Legal Team is working to ensure the longevity of Santa Cruz Free
-        Clinic by retaining its status as a 501(c)(3) nonprofit organization.{" "}
+      The Operations Team works closely with the other clinic teams to organize 
+      new projects and ensure all current projects have the required resources. 
       </h6>
-      <BoardMembers
+      <BoardMember
         memberImage1={RamtinImg}
-        memberName1="Ramtin Poustinchi - Executive Director / Legal Director"
+        memberName1="Ramtin Poustinchi - Executive Director / Operations Director"
         memberDesc1="Ramtin Poustinchi is the founder and executive director of the Santa Cruz Free Clinic. His journey in nonprofit 
             work began with his employment at Housing Matters as a freshman, whilst he was pursuing a B.S. in Neuroscience with a minor 
             in Bioinformatics. During his tenure at housing matters he set out to identify gaps in care for the unsheltered community, 
             and profiled a plan to address those gaps. Over a period of 3 years that plan evolved and grew into the Santa Cruz Free Clinic, 
             with the help of a small group of UCSC students dedicated to community service. Ramtin hopes to grow the clinic into a reputable 
             force for positive change in the community, with the goal of addressing gaps in care for those in need."
-        memberImage2={KeertanaImg}
-        memberName2="Keertana Katuru - Legal Director"
-        memberDesc2="Keertana Katuru is a third year MCD Biology major at UCSC who has always been passionate about making healthcare more 
+      />
+
+      <h3>Legal Team</h3>
+      <h6>
+        The Legal Team is working to ensure the longevity of Santa Cruz Free
+        Clinic by retaining its status as a 501(c)(3) nonprofit organization.{" "}
+      </h6>
+      <BoardMember
+        memberImage1={KeertanaImg}
+        memberName1="Keertana Katuru - Legal Director"
+        memberDesc1="Keertana Katuru is a third year MCD Biology major at UCSC who has always been passionate about making healthcare more 
         accessible to under-resourced communities. Through the Santa Cruz Free Clinic, Keertana has the opportunity to help provide an impactful 
         service for the community and pursue her passion for healthcare. She hopes that the SC Free Clinic will help her and the SCFC team not only 
         provide supporting healthcare services to those who need them, but also bridge other disparities within the community. In the future, 
@@ -68,7 +75,7 @@ export const OurTeam = () => (
         The Finance Team is working to ensure that the clinic makes fiscal
         decisions to best support our community.
       </h6>
-      <BoardMembers
+      <BoardMember
         memberImage1={KausthubImg}
         memberName1="Kausthub Prodduturi - Director of Finance"
         memberDesc1="Kausthub is a third year student studying Neuroscience at UCSC. He was interested in becoming a part of 
@@ -78,14 +85,6 @@ export const OurTeam = () => (
             stable and able to use its assets to support the community. It is his goal to make sure that SCFC, through donors and sponsors, 
             always has the funds necessary to help anyone in their time of need. After graduation, he hopes to attend medical school in order 
             to become a fully practicing physician so that he can continue to serve our society."
-        memberImage2={KyleImg}
-        memberName2="Kyle Lee - Director of Finance"
-        memberDesc2="Kyle is a board member of the Santa Cruz Free Clinic. At UCSC, he studied Technology and Information Management and 
-            after graduating, he joined the Santa Cruz Free Clinic’s financial team. During his time in Santa Cruz, he learned about the importance 
-            of a strong and close-knit community, and began to work in nonprofits across the county. Due to his experiences, he knew that his actions 
-            could make a great positive difference in the lives of the people of my community. As part of the financial team, he aims to combine his 
-            course studies and nonprofit experience to improve the clinic’s backend and allow clinic operations to run smoother than an eight cylinder 
-            firing on ten pistons."
       />
 
       <hr />
@@ -114,6 +113,28 @@ export const OurTeam = () => (
   </React.Fragment>
 );
 
+// 1 Board Member in a Team
+export const BoardMember = (props) => {
+  const {
+    memberImage1,
+    memberName1,
+    memberDesc1,
+  } = props;
+  return (
+    <Container>
+      <Row className="boardMember">
+        <Col xs={12} md={3}>
+          <img width={150} src={memberImage1} alt="member1" />
+        </Col>
+        <Col xs={12} md={9}>
+          <h6>{memberName1}</h6> <p className="p_grid">{memberDesc1}</p>
+        </Col>
+      </Row>
+    </Container>
+  );
+};
+
+// 2 Board Members in a Team
 export const BoardMembers = (props) => {
   const {
     memberImage1,

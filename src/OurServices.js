@@ -52,7 +52,7 @@ export const OurServices = () => (
                   equipment or PPE like masks and hand sanitizer in our kits to
                   help protect the recipients from the spread of COVID-19. If
                   you would like to help aid our efforts in providing these kits
-                  to our community, our GoFundMe can be found here:
+                  to our community, donations can be made through here:
                 </p>
                 <Button
                   href="https://charity.gofundme.com/o/en/campaign/santa-cruz-free-clinic-fudraising"
