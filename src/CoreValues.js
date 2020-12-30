@@ -134,12 +134,12 @@ export const CoreValues = () => (
         abusive treatment of an employee, and the display of pornographic or other offensive material."
       />
 
-      <h4>
+      <h5>
         Those who are reported to have harassed a coworker will not be allowed
         to volunteer with the Santa Cruz Free Clinic. To report harassment
         and/or discrimination please contact:
         <a href="mailto:scfreeclinic@gmail.com"> scfreeclinic@gmail.com</a>
-      </h4>
+      </h5>
     </div>
   </React.Fragment>
 );

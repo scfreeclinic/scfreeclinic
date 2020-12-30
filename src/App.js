@@ -5,6 +5,8 @@ import { OurServices } from "./OurServices";
 import { About } from "./About";
 import { OurTeam } from "./OurTeam";
 import { CoreValues } from "./CoreValues";
+import { Newsletter } from "./Newsletter";
+import { Blogs } from "./Blogs";
 import { NoMatch } from "./NoMatch";
 import { InternApp } from "./InternApp";
 import { DonorsAndSponsors } from "./DonorsAndSponsors";
@@ -28,6 +30,8 @@ class App extends Component {
               <Route path="/core_values" component={CoreValues} />
               <Route path="/intern_application" component={InternApp} />
               <Route path="/donors_and_sponsors" component={DonorsAndSponsors} />
+              <Route path="/newsletter" component={Newsletter} />
+              <Route path="/blogs" component={Blogs} />
               <Route component={NoMatch} />
             </Switch>
           </Layout>

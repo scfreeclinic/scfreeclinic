@@ -6,7 +6,7 @@ import Nav from "react-bootstrap/Nav";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
-import Image from 'react-bootstrap/Image';
+import Carousel from 'react-bootstrap/Carousel';
 import Picture1455 from './assets/CovidKits/1455.jpg';
 import Picture1480 from './assets/CovidKits/1480.jpg';
 import Picture1497 from './assets/CovidKits/1497.jpg';
@@ -62,13 +62,43 @@ export const OurServices = () => (
                 >
                   GoFundMe
                 </Button>
-                <div>
-                  <Image className="covidkit" src={Picture1455} alt=""  />
-                  <Image className="covidkit" src={Picture1480} alt=""  />
-                  <Image className="covidkit" src={Picture1497} alt=""  />
-                  <Image className="covidkit" src={Picture1535} alt=""  />
+                <div className="tab_images">
+                  <Carousel>
+                    <Carousel.Item interval={1000}>
+                      <img
+                        className="d-block w-100 covidkit"
+                        src={Picture1455}
+                        alt="First slide"
+                      />
+                    </Carousel.Item>
+                    <Carousel.Item interval={500}>
+                      <img
+                        className="d-block w-100 covidkit"
+                        src={Picture1480}
+                        alt="Third slide"
+                      />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                      <img
+                        className="d-block w-100 covidkit"
+                        src={Picture1497}
+                        alt="Third slide"
+                      />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                      <img
+                        className="d-block w-100 covidkit"
+                        src={Picture1535} 
+                        alt="Fourth slide"
+                      />
+                    </Carousel.Item>
+                  </Carousel> 
                 </div>
+                
               </Tab.Pane>
+
+
+
               <Tab.Pane eventKey="haircuts">
                 <p>In the works.</p>
               </Tab.Pane>
