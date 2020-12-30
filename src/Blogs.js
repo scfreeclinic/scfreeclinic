@@ -4,7 +4,7 @@ import { Jumbotron } from "./components/Jumbotron";
 export const Blogs = () => {
     return (
         <React.Fragment>
-            <Jumbotron jumboClasses="newsletterblog_jumbo" jumboText="NEWSLETTER" />
+            <Jumbotron jumboClasses="newsletterblog_jumbo" jumboText="BLOGS" />
             <div className="bodywidth">
                 
             </div>

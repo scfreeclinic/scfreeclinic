@@ -30,11 +30,23 @@
   }
 
   .covidkit {
-    height: 500px;
+    height: 30%;
     overflow: hidden;
   }
 
   .tab_images {
-    width: 89%;
+    width: 86%;
     margin: 1rem 0 0 2rem;
+  }
+
+  @media screen and (max-width: 991px) {
+    .buttonpop {
+      margin: 1rem 0;
+      background-color: #dabc66;
+      border-color: #dabc66;
+    }
+    .tab_images {
+      margin: 1rem 0 0 0;
+      width: 86%;
+    }
   }
