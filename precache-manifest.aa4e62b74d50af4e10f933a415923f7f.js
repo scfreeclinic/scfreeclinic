@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b7bb92a31e31e3830e2a3e1efe87f631",
+    "revision": "6023ed3b965c0c558bc09799890baf82",
     "url": "/index.html"
   },
   {
-    "revision": "97b2e749ef70a5c74545",
-    "url": "/static/css/main.f7d23c07.chunk.css"
+    "revision": "7fa69cb5d6fe8f93c38f",
+    "url": "/static/css/main.aa92d92b.chunk.css"
   },
   {
-    "revision": "beff2135adee47e06450",
-    "url": "/static/js/2.1666d9fa.chunk.js"
+    "revision": "ca77cad5d3e6c5561587",
+    "url": "/static/js/2.99ff506d.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/static/js/2.1666d9fa.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.99ff506d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "97b2e749ef70a5c74545",
-    "url": "/static/js/main.5dc8be63.chunk.js"
+    "revision": "7fa69cb5d6fe8f93c38f",
+    "url": "/static/js/main.ded28e6f.chunk.js"
   },
   {
     "revision": "ee029dc4086dbcb235d4",
@@ -28,16 +28,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/1455.ece75bcf.jpg"
   },
   {
-    "revision": "d18321cb59b380bd1dcc0cff5ce3a29d",
-    "url": "/static/media/1480.d18321cb.jpg"
+    "revision": "ad9f61ab8cfee0837cf556d5cbfe6fd7",
+    "url": "/static/media/1480.ad9f61ab.jpg"
   },
   {
     "revision": "bbed73a894aa739af06d9b04c1cdbf45",
     "url": "/static/media/1497.bbed73a8.jpg"
   },
   {
-    "revision": "cc06b53fb968ec339d718aafe2c46d09",
-    "url": "/static/media/1535.cc06b53f.jpg"
+    "revision": "118233fe25eede8b3ea991b18310177b",
+    "url": "/static/media/1535.118233fe.jpg"
+  },
+  {
+    "revision": "d2ad8f1087e6845b15e168039197dd2e",
+    "url": "/static/media/November2020.d2ad8f10.jpg"
+  },
+  {
+    "revision": "0d51d053dfc77fc2501aba22e1890959",
+    "url": "/static/media/October2020.0d51d053.jpg"
   },
   {
     "revision": "eef6590e5866da141ae4ccd0c1d02176",
@@ -66,6 +74,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3b2d331ee3ca37aa531cb054c7d80cd7",
     "url": "/static/media/keertana_l.3b2d331e.png"
+  },
+  {
+    "revision": "c9711df67355f4a4bc21417b3abb8dc0",
+    "url": "/static/media/newsletterblog.c9711df6.png"
   },
   {
     "revision": "7fbd2526cb17f60ed1cf188cccb8c7f1",
