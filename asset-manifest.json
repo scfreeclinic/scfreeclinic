@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.d9be5e89.chunk.css",
-    "main.js": "/static/js/main.7d383fa0.chunk.js",
-    "main.js.map": "/static/js/main.7d383fa0.chunk.js.map",
+    "main.css": "/static/css/main.8e71e4e1.chunk.css",
+    "main.js": "/static/js/main.8e6d00a7.chunk.js",
+    "main.js.map": "/static/js/main.8e6d00a7.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.88430e42.js",
     "runtime-main.js.map": "/static/js/runtime-main.88430e42.js.map",
     "static/js/2.4b1c43fa.chunk.js": "/static/js/2.4b1c43fa.chunk.js",
     "static/js/2.4b1c43fa.chunk.js.map": "/static/js/2.4b1c43fa.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.5bd7b5d63b65f330f9c883b682e66fba.js": "/precache-manifest.5bd7b5d63b65f330f9c883b682e66fba.js",
+    "precache-manifest.957451293577f247a65c557eb3a270c2.js": "/precache-manifest.957451293577f247a65c557eb3a270c2.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.d9be5e89.chunk.css.map": "/static/css/main.d9be5e89.chunk.css.map",
+    "static/css/main.8e71e4e1.chunk.css.map": "/static/css/main.8e71e4e1.chunk.css.map",
     "static/js/2.4b1c43fa.chunk.js.LICENSE.txt": "/static/js/2.4b1c43fa.chunk.js.LICENSE.txt",
-    "static/media/1455.jpg": "/static/media/1455.13488842.jpg",
-    "static/media/1480.jpg": "/static/media/1480.4678b31d.jpg",
-    "static/media/1497.jpg": "/static/media/1497.e4c89422.jpg",
-    "static/media/1535.jpg": "/static/media/1535.118233fe.jpg",
+    "static/media/1455.jpg": "/static/media/1455.c39859cf.jpg",
+    "static/media/1480.jpg": "/static/media/1480.038f2c49.jpg",
+    "static/media/1497.jpg": "/static/media/1497.fe27bc08.jpg",
+    "static/media/1535.jpg": "/static/media/1535.15c179cc.jpg",
     "static/media/November2020.jpg": "/static/media/November2020.d2ad8f10.jpg",
     "static/media/October2020.jpg": "/static/media/October2020.0d51d053.jpg",
-    "static/media/index.css": "/static/media/ourteam.7fbd2526.jpg",
+    "static/media/index.css": "/static/media/ourteam.f20605c6.png",
     "static/media/ethan_p.png": "/static/media/ethan_p.85894b60.png",
     "static/media/kausthub_f.png": "/static/media/kausthub_f.daac240f.png",
     "static/media/keertana_l.png": "/static/media/keertana_l.3b2d331e.png",
@@ -29,7 +29,7 @@
   "entrypoints": [
     "static/js/runtime-main.88430e42.js",
     "static/js/2.4b1c43fa.chunk.js",
-    "static/css/main.d9be5e89.chunk.css",
-    "static/js/main.7d383fa0.chunk.js"
+    "static/css/main.8e71e4e1.chunk.css",
+    "static/js/main.8e6d00a7.chunk.js"
   ]
 }
