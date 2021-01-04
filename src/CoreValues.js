@@ -6,6 +6,7 @@ import Col from "react-bootstrap/Col";
 
 export const CoreValues = () => (
   <React.Fragment>
+    <title>Core Values - Santa Cruz Free Clinic</title>
     <Jumbotron jumboClasses="corevalues_jumbo" jumboText="CORE VALUES" />
     <div className="bodywidth">
       <h4>Accessibility</h4>

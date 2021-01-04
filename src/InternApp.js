@@ -17,6 +17,7 @@ const Styles = styled.div`
 
 export const InternApp = () => (
   <Styles>
+    <title>Intern Application - Santa Cruz Free Clinic</title>
     <Jumbotron jumboClasses="internapp_jumbo" jumboText="INTERN APPLICATION" />
     <div className="bodywidth">
       <p>

@@ -12,6 +12,7 @@ import Nov2020 from './assets/Newsletters/November2020.jpg';
 export const Newsletter = () => {
     return (
         <React.Fragment>
+          <title>Newsletter - Santa Cruz Free Clinic</title>
             <Jumbotron jumboClasses="newsletterblog_jumbo" jumboText="NEWSLETTER" />
             <div className="bodywidth">
             <Tab.Container id="left-tabs-example" defaultActiveKey="Oct2020">

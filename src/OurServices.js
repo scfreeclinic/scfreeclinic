@@ -14,6 +14,7 @@ import Picture1535 from './assets/CovidKits/1535.jpg';
 
 export const OurServices = () => (
   <>
+  <title>Our Services - Santa Cruz Free Clinic</title>
     <Jumbotron jumboClasses="ourservices_jumbo" jumboText="OUR SERVICES" />
     <div className="bodywidth">
       <Tab.Container id="left-tabs-example" defaultActiveKey="covidkits">
