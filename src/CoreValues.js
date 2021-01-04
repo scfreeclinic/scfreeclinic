@@ -1,5 +1,4 @@
 import React from "react";
-import MetaTags from 'react-meta-tags';
 import { Jumbotron } from "./components/Jumbotron";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";

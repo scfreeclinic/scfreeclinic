@@ -1,5 +1,4 @@
 import React from "react";
-import MetaTags from 'react-meta-tags';
 import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
 import { Jumbotron } from "./components/Jumbotron";
