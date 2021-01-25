@@ -4,8 +4,8 @@ import { Jumbotron } from "./components/Jumbotron";
 export const DonorsAndSponsors = () => {
     return (
         <React.Fragment>
+            <Jumbotron jumboClasses="newsletterblog_jumbo" jumboText="DONORS AND SPONSORS" />
             <title>Donors and Sponsors - Santa Cruz Free Clinic</title>
-            <Jumbotron jumboClasses="donorssponsors_jumbo" jumboText="DONORS AND SPONSORS" />
             <p>Santa Cruz Free Clinic works with and maintains a close relationship with 
                 all of our sponsors and donors. The contributions they have given will allow 
                 us to continue providing free and accessible healthcare to those in need. 

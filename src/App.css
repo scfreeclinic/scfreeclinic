@@ -11,6 +11,9 @@
   .p_grid {
     padding: 0;
   }
+  h5 {
+    padding: 0.2rem 0.17rem 1.5rem 0.17rem !important;
+  }
   h6 {
     padding: 0.7rem 0 0 0;
   }
@@ -43,6 +46,9 @@ li {
 }
 h3 {
   margin: 2rem 0 0.5rem 0;
+}
+h5 {
+  padding: 0 2rem;
 }
 h6 {
   line-height: 2rem;

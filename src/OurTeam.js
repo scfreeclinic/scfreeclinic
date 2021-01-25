@@ -12,7 +12,7 @@ import KausthubImg from "./assets/BoardMembers/kausthub_f.png";
 export const OurTeam = () => (
   <React.Fragment>
     <title>Our Team - Santa Cruz Free Clinic</title>
-    <Jumbotron jumboClasses="ourteam_jumbo" jumboText="OUR TEAM" />
+    <Jumbotron jumboClasses="newsletterblog_jumbo" jumboText="OUR TEAM" />
     <div className="bodywidth">
     <h3>Operations Team</h3>
       <h6>

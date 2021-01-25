@@ -7,7 +7,7 @@ import { faCaretDown } from "@fortawesome/free-solid-svg-icons";
 
 export const About = () => (
   <React.Fragment>
-    <Jumbotron jumboClasses="about_jumbo" jumboText="ABOUT THE CLINIC" />
+    <Jumbotron jumboClasses="newsletterblog_jumbo" jumboText="ABOUT THE CLINIC" />
     <div className="bodywidth">
       <Accordion>
         <Card>

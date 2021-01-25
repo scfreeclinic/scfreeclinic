@@ -1,3 +1,14 @@
 .lettersize {
     width: 100%;
 }
+
+.sources {
+    font-size: .7rem;
+    /* padding: .02rem; */
+    margin: .02rem;
+    overflow-wrap: break-word;
+}
+
+h4 {
+    padding: 0 2rem;
+}

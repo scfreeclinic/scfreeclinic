@@ -18,8 +18,9 @@ const Styles = styled.div`
 export const InternApp = () => (
   <Styles>
     <title>Intern Application - Santa Cruz Free Clinic</title>
-    <Jumbotron jumboClasses="internapp_jumbo" jumboText="INTERN APPLICATION" />
+    <Jumbotron jumboClasses="newsletterblog_jumbo" jumboText="INTERN APPLICATION" />
     <div className="bodywidth">
+      <h5>Currently accepting interns for our PR and Finance team!</h5>
       <p>
         We at Santa Cruz Free Clinic are looking to update our intern team with
         a set of passionate individuals equipped with skills in various
@@ -39,7 +40,7 @@ export const InternApp = () => (
         look forward to viewing your application.
       </p>
       <Button
-        href="https://docs.google.com/forms/d/e/1FAIpQLSeyXKsZa_sJAtBdmFeZ3jbmImXdE1hzwiKWZkcdYF0Llxbqzg/viewform"
+        href="https://docs.google.com/forms/d/e/1FAIpQLSdlD1_nvquS7L-BlrDUIMLAd5eByYZhfMmlIKQBH2aTekCJ6A/viewform"
         target="_blank"
         rel="noopener noreferrer"
       >

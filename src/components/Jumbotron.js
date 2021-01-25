@@ -8,7 +8,7 @@ export const Jumbotron = (props) => {
   return (
     <Jumbo fluid className={"full_width , base_jumbo " + jumboClasses}>
       {/* <div className="jumbo_overlay"></div> */}
-      <Container>
+      <Container className="text_container">
         <h1 className="jumbotext">{jumboText}</h1>
       </Container>
     </Jumbo>
