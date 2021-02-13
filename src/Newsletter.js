@@ -8,6 +8,7 @@ import Image from 'react-bootstrap/Image';
 import "./components/styles/NewsletterBlog.css";
 import Oct2020 from './assets/Newsletters/October2020.jpg';
 import Nov2020 from './assets/Newsletters/November2020.jpg';
+import Dec2020 from './assets/Newsletters/December2020.png';
 
 export const Newsletter = () => {
     return (
@@ -26,6 +27,9 @@ export const Newsletter = () => {
                 <Nav.Link eventKey="Nov2020">November 2020</Nav.Link>
               </Nav.Item>
               <Nav.Item>
+                <Nav.Link eventKey="Dec2020">December 2020</Nav.Link>
+              </Nav.Item>
+              <Nav.Item>
                 <Nav.Link eventKey="_____" disabled>
                   _____
                 </Nav.Link>
@@ -39,6 +43,9 @@ export const Newsletter = () => {
               </Tab.Pane>
               <Tab.Pane eventKey="Nov2020">
               <Image className="lettersize" src={Nov2020} alt="November 2020 Newsletter"  />
+              </Tab.Pane>
+              <Tab.Pane eventKey="Dec2020">
+              <Image className="lettersize" src={Dec2020} alt="December 2020 Newsletter"  />
               </Tab.Pane>
             </Tab.Content>
           </Col>

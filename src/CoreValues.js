@@ -1,4 +1,5 @@
 import React from "react";
+import './components/styles/CoreValues.css';
 import { Jumbotron } from "./components/Jumbotron";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
@@ -58,7 +59,7 @@ export const CoreValues = () => (
       </p>
 
       <h4>Zero Tolerance Policy for Harassment and Discriminatory Behavior</h4>
-      <ul>
+      <ul className="zero_tol">
         <li>
           Harassment is defined as any unwanted physical or verbal conduct that
           offends or humiliates the recipient, that interferes with their
