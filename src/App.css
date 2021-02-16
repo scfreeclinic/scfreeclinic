@@ -17,10 +17,6 @@
   h6 {
     padding: 0.7rem 0 0 0;
   }
-  .interns {
-    padding: 0 2.5rem;
-    margin: 0;
-  }
 
   .topnav {
     display: none;
@@ -81,23 +77,4 @@ h1 {
   margin: 1.5rem 0 0 0;
   padding: 0;
 }
-.card-header {
-  text-align: center;
-  background-color: #eee3a7;
-}
-.card-header:hover {
-  cursor: pointer;
-}
-.card {
-  background-color: transparent;
-}
 
-/* Our Team Page */
-.boardMember {
-  margin: 1.5rem 0;
-}
-
-div .SocialProof {
-  color: pink;
-  /* visibility: hidden; */
-}

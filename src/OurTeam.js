@@ -1,4 +1,5 @@
 import React from "react";
+import './components/styles/OurTeam.css';
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -8,6 +9,10 @@ import ShayImg from "./assets/BoardMembers/shay_p.png";
 import KeertanaImg from "./assets/BoardMembers/keertana_l.png";
 import RamtinImg from "./assets/BoardMembers/ramtin_l.jpeg";
 import KausthubImg from "./assets/BoardMembers/kausthub_f.png";
+import Accordion from 'react-bootstrap/Accordion';
+import Card from "react-bootstrap/Card";
+import Button from "react-bootstrap/Button";
+
 
 export const OurTeam = () => (
   <React.Fragment>
@@ -90,26 +95,81 @@ export const OurTeam = () => (
 
       <hr />
 
-      <h5>A THANK YOU TO OUR INTERNS</h5>
-      <ul className="interns">
-        <li>
-          Theresa Tan - Website Lead [Summer 2020] / Social Media [Summer 2020]
-        </li>
-        <li>
-          Jo Leslie - Social Media Lead [Summer 2020] / Website [Summer 2020]
-        </li>
-        <li>
-          Haley Block - Hygiene Kit Lead [Summer 2020] / Social Media [Summer
-          2020]
-        </li>
-      </ul>
-      <ul className="interns">
-        <li>Sophie Tamayo - Legal Intern [Summer 2020]</li>
-        <li>Yatziri Arias Torres - Legal Intern [Summer 2020]</li>
-      </ul>
-      <ul className="interns">
-        <li>Brian Flores - Finance Intern [Summer 2020]</li>
-      </ul>
+      <h5 id="thank_interns">A THANK YOU TO OUR INTERNS</h5>
+      <Accordion id="intern_acc">
+        <Card>
+          <Card.Header className="card_header">
+            <Accordion.Toggle as={Button} variant="link" eventKey="0" className="card_header_text">
+              Operations Team
+            </Accordion.Toggle>
+          </Card.Header>
+          <Accordion.Collapse eventKey="0">
+            <Card.Body>
+            <ul className="interns">
+               <li>Brandon Cheng - Haircutting Clinic [Fall 2020, Winter 2021]</li>
+               <li>Citlalli Castillo - Mentorship Program [Fall 2020, Winter 2021]</li>
+               <li>Emily Nguyen - Telemedicine [Fall 2020, Winter 2021]</li>
+               <li>Joyce Lai - Donation Drive [Fall 2020, Winter 2021]</li>
+               <li>Melica Baboldashtian - Winter Weather Program [Fall 2020, Winter 2021]</li>
+               <li>Sara Amirkiai - Foot Washing Clinic [Fall 2020, Winter 2021]</li>
+               <li>Sarah Khair - HIV Advocacy Program[Fall 2020, Winter 2021]</li>  
+            </ul>
+            </Card.Body>
+          </Accordion.Collapse>
+        </Card>
+        <Card>
+          <Card.Header className="card_header">
+            <Accordion.Toggle as={Button} variant="link" eventKey="1">
+              Legal Team
+            </Accordion.Toggle>
+          </Card.Header>
+          <Accordion.Collapse eventKey="1">
+            <Card.Body>
+              <ul className="interns">
+                <li>Sophie Tamayo - Legal Intern [Summer 2020]</li>
+                <li>Yatziri Arias Torres - Legal Intern [Summer 2020]</li>
+                <li>Allie Nguyen - [Fall 2020, Winter 2021]</li>
+                <li>Jackie Rourke - [Fall 2020, Winter 2021]</li>
+              </ul>
+            </Card.Body>
+          </Accordion.Collapse>
+        </Card>
+        <Card>
+          <Card.Header className="card_header">
+            <Accordion.Toggle as={Button} variant="link" eventKey="2">
+              Public Relations Team
+            </Accordion.Toggle>
+          </Card.Header>
+          <Accordion.Collapse eventKey="2">
+            <Card.Body>
+              <ul className="interns">
+                <li>Theresa Tan - Website Lead [Summer 2020, Fall 2020, Winter 2021] / Social Media [Summer 2020]</li>
+                <li>Jo Leslie - Social Media Lead [Summer 2020] / Website [Summer 2020]</li>
+                <li>Haley Block - Hygiene Kit Lead [Summer 2020] / Social Media [Summer 2020]</li>
+                <li>Bianca Yuen - [Fall 2020, Winter 2021]</li>
+                <li>Elisha Kim - [Winter 2021]</li>
+                <li>Juliana McCullen - [Fall 2020, Winter 2021]</li>
+              </ul>
+            </Card.Body>
+          </Accordion.Collapse>
+        </Card>
+        <Card>
+          <Card.Header className="card_header">
+            <Accordion.Toggle as={Button} variant="link" eventKey="3">
+              Finance Team
+            </Accordion.Toggle>
+          </Card.Header>
+          <Accordion.Collapse eventKey="3">
+            <Card.Body>
+              <ul className="interns">
+                <li>Brian Flores - Finance Intern [Summer 2020]</li>
+                <li>Kim Hatch - [Fall 2020, Winter 2021]</li>
+                <li>Mary Gonzalez - [Fall 2020, Winter 2021]</li>
+              </ul>
+            </Card.Body>
+          </Accordion.Collapse>
+        </Card>
+      </Accordion>
     </div>
   </React.Fragment>
 );
