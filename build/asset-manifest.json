@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.12f44c36.chunk.css",
-    "main.js": "/static/js/main.68d3d1dc.chunk.js",
-    "main.js.map": "/static/js/main.68d3d1dc.chunk.js.map",
+    "main.css": "/static/css/main.9c0a5e6e.chunk.css",
+    "main.js": "/static/js/main.ac75458d.chunk.js",
+    "main.js.map": "/static/js/main.ac75458d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.88430e42.js",
     "runtime-main.js.map": "/static/js/runtime-main.88430e42.js.map",
-    "static/js/2.b52d5123.chunk.js": "/static/js/2.b52d5123.chunk.js",
-    "static/js/2.b52d5123.chunk.js.map": "/static/js/2.b52d5123.chunk.js.map",
+    "static/js/2.074846ee.chunk.js": "/static/js/2.074846ee.chunk.js",
+    "static/js/2.074846ee.chunk.js.map": "/static/js/2.074846ee.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.53aefa8702f1589de91082322a0cb1f8.js": "/precache-manifest.53aefa8702f1589de91082322a0cb1f8.js",
+    "precache-manifest.7c943c5082ff6a68a5bf61a23d89d5f2.js": "/precache-manifest.7c943c5082ff6a68a5bf61a23d89d5f2.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.12f44c36.chunk.css.map": "/static/css/main.12f44c36.chunk.css.map",
-    "static/js/2.b52d5123.chunk.js.LICENSE.txt": "/static/js/2.b52d5123.chunk.js.LICENSE.txt",
+    "static/css/main.9c0a5e6e.chunk.css.map": "/static/css/main.9c0a5e6e.chunk.css.map",
+    "static/js/2.074846ee.chunk.js.LICENSE.txt": "/static/js/2.074846ee.chunk.js.LICENSE.txt",
     "static/media/1455.jpg": "/static/media/1455.c39859cf.jpg",
     "static/media/1480.jpg": "/static/media/1480.038f2c49.jpg",
     "static/media/1497.jpg": "/static/media/1497.fe27bc08.jpg",
     "static/media/1535.jpg": "/static/media/1535.15c179cc.jpg",
+    "static/media/December2020.png": "/static/media/December2020.0687e0d1.png",
     "static/media/November2020.jpg": "/static/media/November2020.d2ad8f10.jpg",
     "static/media/October2020.jpg": "/static/media/October2020.0d51d053.jpg",
     "static/media/index.css": "/static/media/ourteam.f20605c6.png",
@@ -28,8 +29,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.88430e42.js",
-    "static/js/2.b52d5123.chunk.js",
-    "static/css/main.12f44c36.chunk.css",
-    "static/js/main.68d3d1dc.chunk.js"
+    "static/js/2.074846ee.chunk.js",
+    "static/css/main.9c0a5e6e.chunk.css",
+    "static/js/main.ac75458d.chunk.js"
   ]
 }

@@ -6,7 +6,7 @@ import { Jumbotron } from "./components/Jumbotron";
 import EthanImg from "./assets/BoardMembers/ethan_p.png";
 import ShayImg from "./assets/BoardMembers/shay_p.png";
 import KeertanaImg from "./assets/BoardMembers/keertana_l.png";
-import RamtinImg from "./assets/BoardMembers/ramtin_l.png";
+import RamtinImg from "./assets/BoardMembers/ramtin_l.jpeg";
 import KausthubImg from "./assets/BoardMembers/kausthub_f.png";
 
 export const OurTeam = () => (
