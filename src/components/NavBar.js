@@ -121,12 +121,17 @@ export const NavigationBar = () => (
               >
                 Donate
               </NavDropdown.Item>
-              <NavDropdown.Item
+              {/* <NavDropdown.Item
                 href="https://forms.gle/vp6ATFmfQVDgJRuA6"
                 target="_blank"
                 className="dropdown_nav"
               >
                 Volunteer Interest Form
+              </NavDropdown.Item> */}
+              <NavDropdown.Item>
+                <Nav.Link as={Link} to="/volunteer">
+                  Volunteer
+                </Nav.Link>
               </NavDropdown.Item>
               <NavDropdown.Item>
                 <Nav.Link as={Link} to="/intern_application">

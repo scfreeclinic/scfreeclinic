@@ -1,9 +1,12 @@
 import React from 'react'
 import { Jumbotron } from "./components/Jumbotron";
+import "./components/styles/DonorsAndSponsors.css";
 import Tab from "react-bootstrap/Tab";
 import Nav from "react-bootstrap/Nav";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import Bombas from './assets/DonorsSponsors/bombas.jpeg';
+
 export const DonorsAndSponsors = () => {
     return (
         <React.Fragment>
@@ -16,8 +19,7 @@ export const DonorsAndSponsors = () => {
                     Updates regarding how the donations are used will be posted on our website 
                     and social media pages.</p>
                 <p>Donations can be made through <a href="https://charity.gofundme.com/o/en/campaign/santa-cruz-free-clinic-fudraising">GoFundMe</a> and we will efficiently handle your 
-                    tax deductible contributions. If you have any questions and concerns, please feel free to contact 
-                    us <a href="mailto:scfreeclinic@gmail.com"> scfreeclinic@gmail.com</a>.</p>
+                    tax deductible contributions.</p>
             
                 <Tab.Container id="left-tabs-example" defaultActiveKey="bombas">
                     <Row>
@@ -46,6 +48,8 @@ export const DonorsAndSponsors = () => {
                             we can distribute to those experiencing houselessness in the Santa 
                             Cruz community! 
                             </p>
+
+                            <img id="bombas" src={Bombas} alt="" />
                         </Tab.Pane>
 
                         <Tab.Pane eventKey="pathwater">

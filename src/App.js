@@ -4,6 +4,7 @@ import { HashRouter as Router, Switch, Route } from "react-router-dom";
 import { OurServices } from "./OurServices";
 import { About } from "./About";
 import { OurTeam } from "./OurTeam";
+import { Volunteer } from "./Volunteer";
 import { CoreValues } from "./CoreValues";
 import { Newsletter } from "./Newsletter";
 import { Blogs } from "./Blogs";
@@ -31,6 +32,7 @@ class App extends Component {
               <Route path="/intern_application" component={InternApp} />
               <Route path="/donors_and_sponsors" component={DonorsAndSponsors} />
               <Route path="/newsletter" component={Newsletter} />
+              <Route path="/volunteer" component={Volunteer} />
               <Route path="/blogs" component={Blogs} />
               <Route component={NoMatch} />
             </Switch>
