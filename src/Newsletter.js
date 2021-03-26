@@ -9,6 +9,7 @@ import "./components/styles/NewsletterBlog.css";
 import Oct2020 from './assets/Newsletters/October2020.jpg';
 import Nov2020 from './assets/Newsletters/November2020.jpg';
 import Dec2020 from './assets/Newsletters/December2020.png';
+import Jan2021 from './assets/Newsletters/January2021.jpeg';
 
 export const Newsletter = () => {
     return (
@@ -30,6 +31,9 @@ export const Newsletter = () => {
                 <Nav.Link eventKey="Dec2020">December 2020</Nav.Link>
               </Nav.Item>
               <Nav.Item>
+                <Nav.Link eventKey="Jan2021">January 2021</Nav.Link>
+              </Nav.Item>
+              <Nav.Item>
                 <Nav.Link eventKey="_____" disabled>
                   _____
                 </Nav.Link>
@@ -46,6 +50,9 @@ export const Newsletter = () => {
               </Tab.Pane>
               <Tab.Pane eventKey="Dec2020">
               <Image className="lettersize" src={Dec2020} alt="December 2020 Newsletter"  />
+              </Tab.Pane>
+              <Tab.Pane eventKey="Jan2021">
+              <Image className="lettersize" src={Jan2021} alt="January 2021 Newsletter"  />
               </Tab.Pane>
             </Tab.Content>
           </Col>

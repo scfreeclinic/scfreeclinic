@@ -8,10 +8,11 @@ import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
 import Carousel from 'react-bootstrap/Carousel';
 import Picture1455 from './assets/CovidKits/1455.jpg';
-import Picture1480 from './assets/CovidKits/1480.jpg';
+import Picture5866 from './assets/CovidKits/5866.jpg';
 import Picture1496 from './assets/CovidKits/1496.jpg';
-import Picture1497 from './assets/CovidKits/1497.jpg';
 import Picture1498 from './assets/CovidKits/1498.jpg';
+import Picture5876 from './assets/CovidKits/5876.jpg';
+import Picture5897 from './assets/CovidKits/5897.jpg';
 import Picture1502 from './assets/CovidKits/1502.jpg';
 import Picture1535 from './assets/CovidKits/1535.jpg';
 
@@ -68,53 +69,60 @@ export const OurServices = () => (
                 </Button>
                 <div className="tab_images">
                   <Carousel>
-                    <Carousel.Item interval={1000}>
+                    <Carousel.Item>
                       <img
                         className="d-block w-100 covidkit"
-                        src={Picture1455}
-                        alt="First slide"
-                      />
-                    </Carousel.Item>
-                    <Carousel.Item interval={500}>
-                      <img
-                        className="d-block w-100 covidkit"
-                        src={Picture1480}
-                        alt="Third slide"
+                        src={Picture5866}
+                        alt=""
                       />
                     </Carousel.Item>
                     <Carousel.Item>
                       <img
                         className="d-block w-100 covidkit"
-                        src={Picture1497}
-                        alt="Third slide"
+                        src={Picture1455}
+                        alt=""
+                      />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                      <img
+                        className="d-block w-100 covidkit"
+                        src={Picture5876}
+                        alt=""
+                      />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                      <img
+                        className="d-block w-100 covidkit"
+                        src={Picture5897}
+                        alt=""
                       />
                     </Carousel.Item>
                     <Carousel.Item>
                       <img
                         className="d-block w-100 covidkit"
                         src={Picture1535} 
-                        alt="Fourth slide"
-                      />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                      <img
-                        className="d-block w-100 covidkit"
-                        src={Picture1496} 
-                        alt="Fourth slide"
+                        alt=""
                       />
                     </Carousel.Item>
                     <Carousel.Item>
                       <img
                         className="d-block w-100 covidkit"
                         src={Picture1498} 
-                        alt="Fourth slide"
+                        alt=""
+                      />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                      <img
+                        className="d-block w-100 covidkit"
+                        src={Picture1496} 
+                        alt=""
                       />
                     </Carousel.Item>
                     <Carousel.Item>
                       <img
                         className="d-block w-100 covidkit"
                         src={Picture1502} 
-                        alt="Fourth slide"
+                        alt=""
                       />
                     </Carousel.Item>
                   </Carousel> 
