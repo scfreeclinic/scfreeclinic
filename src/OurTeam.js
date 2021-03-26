@@ -113,6 +113,7 @@ export const OurTeam = () => (
                <li>Melica Baboldashtian - Winter Weather Program [Fall 2020, Winter 2021]</li>
                <li>Sara Amirkiai - Foot Washing Clinic [Fall 2020, Winter 2021]</li>
                <li>Sarah Khair - HIV Advocacy Program[Fall 2020, Winter 2021]</li>  
+
             </ul>
             </Card.Body>
           </Accordion.Collapse>

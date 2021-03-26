@@ -45,3 +45,8 @@ div .SocialProof {
         margin: 0;
     }
 }
+
+li {
+    display:inline;
+    width: 800px;
+}
