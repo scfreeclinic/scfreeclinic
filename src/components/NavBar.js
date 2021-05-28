@@ -80,6 +80,7 @@ export const NavigationBar = () => (
     <Navbar collapseOnSelect expand="lg" className="topnav">
       <Container>
         {/* only show brand when on desktop+ */}
+        {/* Error when trying to access home page through the logo */}
         <Navbar.Brand href="/" className="scfc-logo">
           <img src={logo} height="55" alt="SCFC" />
         </Navbar.Brand>
